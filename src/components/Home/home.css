@@ -1,0 +1,29 @@
+.home-background {
+  color: white;
+  object-fit: contain;
+  background-size: "cover";
+  background-image: url("../../assets/images/home_background.jpg");
+  background-position: center center;
+  height: 80vh;
+}
+
+.home-contents {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  align-items: center;
+  margin: 0px 150px;
+}
+
+.home-description{
+  font-size: 15px;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 52px;
+}
+
+.home-illustration{
+ 
+}

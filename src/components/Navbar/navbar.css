@@ -1,0 +1,35 @@
+.nav{
+    position: fixed;
+    top: 0;
+    padding: 4px;
+    color: white;
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-logo-container{
+    display: flex;
+    margin-left: 150px;
+}
+
+.nav_logo{
+    width: 70px;
+    object-fit: contain;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.nav-items{
+    margin-right: 150px;
+    font-size: 17px;
+    font-family: 'open-sans',sans-serif;
+}
