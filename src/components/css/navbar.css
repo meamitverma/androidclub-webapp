@@ -33,3 +33,14 @@ a{
     font-size: 17px;
     font-family: 'open-sans',sans-serif;
 }
+
+.nav-items a.active{
+    color: greenyellow;
+    border-bottom: 2px solid greenyellow ;
+}
+
+.nav-items a:hover{
+    /* border-bottom: 2px solid greenyellow; */
+    color: greenyellow;
+    border-bottom: 2px solid greenyellow;
+}

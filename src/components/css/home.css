@@ -4,7 +4,7 @@
   background-size: "cover";
   background-image: url("../../assets/images/home_background.jpg");
   background-position: center center;
-  height: 80vh;
+  height: 90vh;
 }
 
 .home-contents {
@@ -17,6 +17,7 @@
 
 .home-description{
   font-size: 15px;
+  margin-right: 50px;
 }
 
 h1 {
