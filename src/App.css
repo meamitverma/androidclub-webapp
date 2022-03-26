@@ -18,13 +18,13 @@ body {
   text-align: center;
 }
 
-.navbar{
+.navbar {
   /* Anmimation */
   transition-timing-function: ease-in;
   transition: all 0.5s;
 }
 
-nav.bg-light{
+nav.bg-light {
   box-shadow: 0px 3px 3px #88888838;
 }
 
@@ -37,17 +37,73 @@ nav.bg-light{
   border-bottom: 2px solid black;
 }
 
-.events-container{
-  background-color: whitesmoke;
-}
-.events{
+.events {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 80px;
 }
-.event{
+.event {
   width: 100%;
-  box-shadow: 0px 0px 10px #88888838 ;
+  margin-top: 10px;
+}
+.event:hover {
+  box-shadow: 0px 0px 4px #4e45fc;
+}
+
+/* Events component */
+.card-container {
+  object-position: center;
+  padding: 5px;
+}
+.card-img-top {
+  width: 100%;
+  height: 12vw;
+  object-position: 0% 20%;
+  object-fit: cover;
+}
+
+/* About */
+.about-container{
+  padding-top: 50px;
+}
+.about-body-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./assets/images/about_illust.png");
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.about-nav{
+  display: flex;
+  /* background-color:rgb(228, 96, 96); */
+  /* color: white; */
+  margin-left: 40vw;
+  width: auto;
+}
+.about-nav-items{
+  padding: 5px;
+  font-size: 19px;
+}
+.about-nav-items:hover{
+  border-bottom: 2px solid #4e45fc;
+  cursor: pointer;
+}
+.about-content-container{
+  justify-content: center;
+  padding-top: 25px;
+  margin-left: 45vw;
+  width: auto;
+}
+.about-nav .active{
+  border-bottom: 2px solid black;
+}
+
+/* Footer */
+.footer-container{
+  background-color:rgba(245, 245, 245, 0.103);
+  height: 10vh;
 }
