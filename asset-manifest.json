@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/androidclub-webapp/static/css/main.053796f9.css",
-    "main.js": "/androidclub-webapp/static/js/main.7622f6b5.js",
+    "main.css": "/androidclub-webapp/static/css/main.c10f26f3.css",
+    "main.js": "/androidclub-webapp/static/js/main.d2d87905.js",
     "static/js/787.33d2fe70.chunk.js": "/androidclub-webapp/static/js/787.33d2fe70.chunk.js",
     "static/media/android_black.png": "/androidclub-webapp/static/media/android_black.54cb98c93ca2d6b8b1a8.png",
     "static/media/home_illustratation.png": "/androidclub-webapp/static/media/home_illustratation.502f1ecd24f2918ec82a.png",
+    "static/media/about_illust.png": "/androidclub-webapp/static/media/about_illust.7c7bff58a04937b385cd.png",
     "index.html": "/androidclub-webapp/index.html",
-    "main.053796f9.css.map": "/androidclub-webapp/static/css/main.053796f9.css.map",
-    "main.7622f6b5.js.map": "/androidclub-webapp/static/js/main.7622f6b5.js.map",
+    "main.c10f26f3.css.map": "/androidclub-webapp/static/css/main.c10f26f3.css.map",
+    "main.d2d87905.js.map": "/androidclub-webapp/static/js/main.d2d87905.js.map",
     "787.33d2fe70.chunk.js.map": "/androidclub-webapp/static/js/787.33d2fe70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.053796f9.css",
-    "static/js/main.7622f6b5.js"
+    "static/css/main.c10f26f3.css",
+    "static/js/main.d2d87905.js"
   ]
 }
