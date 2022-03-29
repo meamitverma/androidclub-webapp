@@ -93,6 +93,16 @@ function AboutMembers() {
           />
         </div>
 
+        <div className="col-md-2">
+        <Member
+            profile_img_link=""
+            title="Member 101"
+            pos="Core Member"
+            insta_link="https://www.instagram.com/androidclub.vitb/"
+          />
+        </div>
+        
+
       </div>
 
       
