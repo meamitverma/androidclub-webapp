@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/androidclub-webapp/static/css/main.7e18a949.css",
-    "main.js": "/androidclub-webapp/static/js/main.8c66248c.js",
+    "main.js": "/androidclub-webapp/static/js/main.28ccde4e.js",
     "static/js/787.33d2fe70.chunk.js": "/androidclub-webapp/static/js/787.33d2fe70.chunk.js",
     "static/media/android_black.png": "/androidclub-webapp/static/media/android_black.54cb98c93ca2d6b8b1a8.png",
     "static/media/home_illustratation.png": "/androidclub-webapp/static/media/home_illustratation.502f1ecd24f2918ec82a.png",
     "index.html": "/androidclub-webapp/index.html",
     "main.7e18a949.css.map": "/androidclub-webapp/static/css/main.7e18a949.css.map",
-    "main.8c66248c.js.map": "/androidclub-webapp/static/js/main.8c66248c.js.map",
+    "main.28ccde4e.js.map": "/androidclub-webapp/static/js/main.28ccde4e.js.map",
     "787.33d2fe70.chunk.js.map": "/androidclub-webapp/static/js/787.33d2fe70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e18a949.css",
-    "static/js/main.8c66248c.js"
+    "static/js/main.28ccde4e.js"
   ]
 }
