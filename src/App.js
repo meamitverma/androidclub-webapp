@@ -13,7 +13,6 @@ function App() {
         <Home/>
         <Events/>
         <About/>
-        <Footer/>
     </React.Fragment>;
 }
 

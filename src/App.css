@@ -40,16 +40,24 @@ nav.bg-light {
 .events {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
   justify-content: center;
   padding-top: 80px;
 }
 .event {
   width: 100%;
+  height: 355px;
   margin-top: 10px;
+  box-shadow: 0px 0px 4px #5454552f;
 }
 .event:hover {
   box-shadow: 0px 0px 4px #4e45fc;
+}
+.event-register-container{
+  display: flex;
+}
+.event-register-btn{
+  margin-left: auto;
 }
 
 /* Events component */
@@ -64,6 +72,53 @@ nav.bg-light {
   object-fit: cover;
 }
 
+
+/* Faculty */
+.about-faculty-container{
+  display: flex;
+  box-shadow: 0px 0px 2px black;
+  border-radius: 60px;
+  padding: 10px;
+}
+img.faculty-profile-img{
+  width:fit-content;
+  border-radius:60px;
+}
+.faculty-about{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  margin-left: 2vw;
+}
+.faculty-title{
+  font-weight: 500;
+  font-size: 22px;
+}
+.faculty-desc{
+  margin-left: 2px;
+}
+.faculty-pos{
+  margin-top: 5px;
+  color: rgb(114, 114, 114);
+}
+
+/* Lead */
+.member-container{
+  margin-top: 10px;
+}
+.member-body{
+  object-fit: contain;
+  padding: 10px;
+  height: 15vh;
+}
+.member-desc-wrapper{
+  display: flex;
+}
+.member-social-link{
+  margin-left: auto;
+  margin-top: 5px;
+}
+
 /* About */
 .about-container{
   padding-top: 50px;
@@ -71,17 +126,11 @@ nav.bg-light {
 .about-body-container {
   display: flex;
   flex-direction: column;
-  background-image: url("./assets/images/about_illust.png");
   height: 100vh;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 .about-nav{
   display: flex;
-  /* background-color:rgb(228, 96, 96); */
-  /* color: white; */
-  margin-left: 40vw;
+  margin-top: 30px;
   width: auto;
 }
 .about-nav-items{
@@ -93,9 +142,7 @@ nav.bg-light {
   cursor: pointer;
 }
 .about-content-container{
-  justify-content: center;
   padding-top: 25px;
-  margin-left: 45vw;
   width: auto;
 }
 .about-nav .active{
