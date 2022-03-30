@@ -5,6 +5,7 @@ import Android from "./Android";
 import Web from "./Web";
 import Faculty from "./Faculty";
 import Footer from "./Footer";
+import Contact from "./Contact";
 
 
 function About() {
@@ -12,7 +13,7 @@ function About() {
   return (
     <div id="about" className="container container-fluid my-5 about-container">
       <div className="about-body-container">
-        <p className="display-3 my-5">Meet the Team</p>
+        <p className="display-5 my-5">Meet the Team</p>
         <div>
           <Faculty
             title="Dr. Sandeep Mal"
@@ -57,6 +58,7 @@ function About() {
         <div className="about-content-container">
           {selected.component}
         </div>
+        <Contact/>
         <Footer/>
       </div>
 

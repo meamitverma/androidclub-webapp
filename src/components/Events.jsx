@@ -5,7 +5,7 @@ function Events() {
   return (
     <div className="events-container">
       <div id="events" className="container container-fluid events">
-        <p className="display-3">Events</p>
+        <p className="display-5">Events</p>
         <div className="row event-item-container">
           <div className="col-md-3">
             <Event
