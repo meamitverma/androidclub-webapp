@@ -11,7 +11,12 @@ function Home() {
           dolores eos consectetur reiciendis quas. Impedit, perferendis. Sint
           possimus repellendus soluta laboriosam libero eveniet?
         </p>
-        <img className="img-fluid" src={require("../assets/images/home_illustratation.png")} alt="" />
+        <img
+          className="img-fluid"
+          src={require("../assets/images/home_illustratation.png")}
+          alt=""
+          style={{width:"100vh"}}
+        />
       </div>
     </div>
   );

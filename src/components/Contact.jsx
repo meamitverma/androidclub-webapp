@@ -19,11 +19,27 @@ function Contact() {
               <label for="exampleInputPassword1" className="form-label">Message</label>
               <textarea class="form-control" placeholder="Leave your message here" id="floatingTextarea"></textarea>
             </div>      
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <button type="submit" className="btn btn-primary" onClick={sendEmail}>Submit</button>
           </form>
       </div>
     </div>
   );
+}
+
+function sendEmail() {
+  // Email.send({
+  //   Host: "smtp.gmail.com",
+  //   Username: "",
+  //   Password: "",
+  //   To: 'amit.kumar2020r@vitbhopal.ac.in',
+  //   From: "amit.verma.22080@gmail.com",
+  //   Subject: "Sending Email using javascript",
+  //   Body: "Well that was easy!!",
+  // })
+  //   .then(function (message) {
+  //     alert("mail sent successfully")
+  //   });
+  window.open('mailto:amit.verma.22080@gmail.com?subject=subject&body=body');
 }
 
 export default Contact;

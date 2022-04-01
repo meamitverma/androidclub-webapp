@@ -13,10 +13,10 @@ function About() {
   return (
     <div id="about" className="container container-fluid my-5 about-container">
       <div className="about-body-container">
-        <p className="display-5 my-5">Meet the Team</p>
+        <p className="display-5 my-5" style={{textAlign:"center"}}>Meet the Team</p>
         <div>
           <Faculty
-            title="Dr. Sandeep Mal"
+            title="Dr. Sandip Mal"
             desc="loreoajsufihuisdhufhusdhgyu ufdhsau hauds"
             pos="Faculty"
           />
@@ -24,13 +24,13 @@ function About() {
 
         <div className="about-nav">
           <div 
-            className={`about-nav-items ${selected.id==="lead" ? "active" : ""}`}
-            onClick={()=>{setSelected({component:<AboutLeads/>,id:"lead"})}}
+            // className={`about-nav-items ${selected.id==="lead" ? "active" : ""}`}
+            // onClick={()=>{setSelected({component:<AboutLeads/>,id:"lead"})}}
           >
-            Lead
+            <p className="faculty-title">Lead</p>
           </div>
 
-          <div 
+          {/* <div 
             className={`about-nav-items ${selected.id==="android" ? "active" : ""}`}
             onClick={()=>{setSelected({component:<Android/>,id:"android"})}}
           >
@@ -49,13 +49,13 @@ function About() {
             onClick={()=>{setSelected({component:<AboutMembers/>,id:"members"})}}
           >
             Members
-          </div>
+          </div> */}
 
         </div>
 
         
 
-        <div className="about-content-container">
+        <div>
           {selected.component}
         </div>
         <Contact/>

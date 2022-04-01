@@ -4,8 +4,8 @@ function Member(props) {
   return (
     <div class="card member-container">
       <img
-        src="https://brighterwriting.com/wp-content/uploads/icon-user-default.png"
-        class="card-img-top"
+        src={props.profileimg}
+        className="card-img-top"
         alt="..."
       />
       <div class="member-body">
@@ -16,13 +16,14 @@ function Member(props) {
          
           <div className="member-social-link">
               {/* instagram */}
-              <a href={props.insta_link} target="_">
+              {props.insta_link && <a href={props.insta_link} target="_">
                 <img
                   src="https://img.icons8.com/fluency/344/instagram-new.png"
                   alt="instagram icon"
                   width={24}
                 />
               </a>
+              }
 
           </div>
 

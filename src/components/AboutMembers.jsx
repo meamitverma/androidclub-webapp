@@ -7,7 +7,7 @@ function AboutMembers() {
       <div className="row">
         <div className="col-md-2">
           <Member
-            profile_img_link=""
+            profile_img_link="https://brighterwriting.com/wp-content/uploads/icon-user-default.png"
             title="Member 1"
             pos="Core Member"
             insta_link="https://www.instagram.com/rohan_sarkarr/"
@@ -16,7 +16,7 @@ function AboutMembers() {
 
         <div className="col-md-2">
         <Member
-            profile_img_link=""
+            profile_img_link="https://brighterwriting.com/wp-content/uploads/icon-user-default.png"
             title="Member 2"
             pos="Core Member"
             insta_link="https://www.instagram.com/androidclub.vitb/"
@@ -25,7 +25,7 @@ function AboutMembers() {
 
         <div className="col-md-2">
         <Member
-            profile_img_link=""
+            profile_img_link="https://brighterwriting.com/wp-content/uploads/icon-user-default.png"
             title="Member 3"
             pos="Core Member"
             insta_link="https://www.instagram.com/androidclub.vitb/"
@@ -34,7 +34,7 @@ function AboutMembers() {
 
         <div className="col-md-2">
         <Member
-            profile_img_link=""
+            profile_img_link="https://brighterwriting.com/wp-content/uploads/icon-user-default.png"
             title="Member 4"
             pos="Core Member"
             insta_link="https://www.instagram.com/androidclub.vitb/"
@@ -43,7 +43,7 @@ function AboutMembers() {
 
         <div className="col-md-2">
         <Member
-            profile_img_link=""
+            profile_img_link="https://brighterwriting.com/wp-content/uploads/icon-user-default.png"
             title="Member 5"
             pos="Core Member"
             insta_link="https://www.instagram.com/androidclub.vitb/"
@@ -52,7 +52,7 @@ function AboutMembers() {
 
         <div className="col-md-2">
         <Member
-            profile_img_link=""
+            profile_img_link="https://brighterwriting.com/wp-content/uploads/icon-user-default.png"
             title="Member 6"
             pos="Core Member"
             insta_link="https://www.instagram.com/androidclub.vitb/"
@@ -61,7 +61,7 @@ function AboutMembers() {
 
         <div className="col-md-2">
         <Member
-            profile_img_link=""
+            profile_img_link="https://brighterwriting.com/wp-content/uploads/icon-user-default.png"
             title="Member 7"
             pos="Core Member"
             insta_link="https://www.instagram.com/androidclub.vitb/"
@@ -70,7 +70,7 @@ function AboutMembers() {
 
         <div className="col-md-2">
         <Member
-            profile_img_link=""
+            profile_img_link="https://brighterwriting.com/wp-content/uploads/icon-user-default.png"
             title="Member 8"
             pos="Core Member"
             insta_link="https://www.instagram.com/androidclub.vitb/"
@@ -78,7 +78,7 @@ function AboutMembers() {
         </div>
         <div className="col-md-2">
         <Member
-            profile_img_link=""
+            profile_img_link="https://brighterwriting.com/wp-content/uploads/icon-user-default.png"
             title="Member 9"
             pos="Core Member"
             insta_link="https://www.instagram.com/androidclub.vitb/"
@@ -86,7 +86,7 @@ function AboutMembers() {
         </div>
         <div className="col-md-2">
         <Member
-            profile_img_link=""
+            profile_img_link="https://brighterwriting.com/wp-content/uploads/icon-user-default.png"
             title="Member 10"
             pos="Core Member"
             insta_link="https://www.instagram.com/androidclub.vitb/"

@@ -1,53 +1,51 @@
-import React from "react";
-import Event from "./Event";
+import React, { useState } from "react";
+import PastEvents from "./PastEvents";
+import FutureEvents from "./FutureEvents";
+import About from "./About";
+
 
 function Events() {
+  const [selected, setSelected] = useState({component:<FutureEvents/>,id:"future"});
   return (
-    <div className="events-container">
-      <div id="events" className="container container-fluid events">
-        <p className="display-5">Events</p>
-        <div className="row event-item-container">
-          <div className="col-md-3">
-            <Event
-              imageurl="https://i.pinimg.com/564x/23/3d/17/233d1789002252488fd0484597987636--free-android-android-apps.jpg"
-              title="Event 3"
-              desc="Lorem, ipsodi culpa cumque iure suscipit porro esse!"
-              schedule="26 March 2022"
-              linktojoin="https://www.instagram.com/androidclub.vitb/"
-            />
+    <div id="events" className="container container-fluid my-5 about-container">
+      <div className="about-body-container">
+        <p className="display-5 my-5" style={{textAlign:"center"}}>Events</p>
+
+        <div className="about-nav" style={{marginTop:'0px'}}>
+          <div 
+            className={`about-nav-items ${selected.id==="past" ? "active" : ""}`}
+            onClick={()=>{setSelected({component:<PastEvents/>,id:"past"})}}
+          >
+            Past
           </div>
-          <div className="col-md-3">
-            <Event
-              imageurl="https://i.pinimg.com/564x/23/3d/17/233d1789002252488fd0484597987636--free-android-android-apps.jpg"
-              title="Event 3"
-              desc="Lorem, imet Commodi culpa cumque iure suscipit porro esse!"
-              schedule="26 March 2022"
-              linktojoin="https://www.instagram.com/androidclub.vitb/"
-            />
+
+          {/* <div 
+            className={`about-nav-items ${selected.id==="current" ? "active" : ""}`}
+            onClick={()=>{setSelected({component:<CurrentEvents/>,id:"current"})}}
+          >
+            Current
+          </div> */}
+
+          <div 
+            className={`about-nav-items ${selected.id==="future" ? "active" : ""}`}
+            onClick={()=>{setSelected({component:<FutureEvents/>,id:"future"})}}
+          >
+            Upcoming
           </div>
-          <div className="col-md-3">
-            <Event
-              imageurl="https://i.pinimg.com/564x/23/3d/17/233d1789002252488fd0484597987636--free-android-android-apps.jpg"
-              title="Event 3"
-              desc="Ldi culpa cumque !"
-              schedule="26 March 2022"
-              linktojoin="https://www.instagram.com/androidclub.vitb/"
-            />
-          </div>
-          <div className="col-md-3">
-            <Event
-              imageurl="https://i.pinimg.com/564x/23/3d/17/233d1789002252488fd0484597987636--free-android-android-apps.jpg"
-              title="Event 3"
-              desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi culpa cumque iure suscipit porro esse!"
-              schedule="26 March 2022"
-              linktojoin="https://www.instagram.com/androidclub.vitb/"
-            />
-          </div>
-          
+
         </div>
+
+        
+
+        <div className="about-content-container">
+          {selected.component}
+        </div>
+        <About/>
       </div>
+
     </div>
   );
 }
+
 
 export default Events;

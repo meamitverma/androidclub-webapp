@@ -3,26 +3,27 @@ import Member from "./Member";
 
 function AboutLead() {
   return (
-    <div>
-      <div className="row">
-        <div className="col-md-2">
+    <div className="about-content-container">
+      {/* //<div className="row"> */}
+        <div className="col-md-2" >
           <Member
-            profile_img_link=""
-            title="Rohan de Sarkar"
-            pos="Secretary"
+            profileimg={require("../assets/profileimg/rohan.jpg")}
+            title="Rohan Sarkar"
+            pos="Secretary(Technical)"
             insta_link="https://www.instagram.com/rohan_sarkarr/"
           />
         </div>
 
-        <div className="col-md-2">
+        <div className="col-md-2"style={{marginLeft:"50px"}}>
         <Member
-            profile_img_link=""
-            title="Tamanna"
-            pos="Secretary"
-            insta_link="https://www.instagram.com/androidclub.vitb/"
+            profileimg={require("../assets/profileimg/tamanna.jpeg")}
+            title="Tamanna Kapoor"
+            pos="Secretary(Non-Technical)"
+            // insta_link="https://www.instagram.com/androidclub.vitb/"
           />
         </div>
-      </div>
+
+      {/* </div> */}
     </div>
   );
 }

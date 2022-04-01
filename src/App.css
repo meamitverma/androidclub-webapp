@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-body {
+
+* {
   font-family: montserrat, sans-serif;
 }
 
@@ -18,6 +18,10 @@ body {
   text-align: center;
 }
 
+@media screen {
+  
+}
+
 .navbar {
   /* Anmimation */
   transition-timing-function: ease-in;
@@ -26,6 +30,12 @@ body {
 
 nav.bg-light {
   box-shadow: 0px 3px 3px #88888838;
+}
+
+/* Navbar */
+.nav-wrapper{
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-item {
@@ -37,6 +47,9 @@ nav.bg-light {
   border-bottom: 2px solid black;
 }
 
+.event-title{
+  font-size: 55px;
+}
 .events {
   display: flex;
   flex-direction: column;
@@ -73,12 +86,7 @@ nav.bg-light {
 }
 
 /* Faculty */
-.about-faculty-container {
-  display: flex;
-  box-shadow: 0px 0px 2px black;
-  border-radius: 60px;
-  padding: 10px;
-}
+
 img.faculty-profile-img {
   width: fit-content;
   border-radius: 60px;
@@ -90,8 +98,8 @@ img.faculty-profile-img {
   margin-left: 2vw;
 }
 .faculty-title {
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 300;
+  font-size: 23px;
 }
 .faculty-desc {
   margin-left: 2px;
@@ -99,6 +107,15 @@ img.faculty-profile-img {
 .faculty-pos {
   margin-top: 5px;
   color: rgb(114, 114, 114);
+}
+.about-faculty-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.faculty-container{
+  
 }
 
 /* Lead */
@@ -108,7 +125,7 @@ img.faculty-profile-img {
 .member-body {
   object-fit: contain;
   padding: 10px;
-  height: 15vh;
+  height: 13vh;
 }
 .member-desc-wrapper {
   display: flex;
@@ -129,10 +146,13 @@ img.faculty-profile-img {
 }
 .about-nav {
   display: flex;
-  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
   width: auto;
 }
 .about-nav-items {
+  margin: 0px 7px;
   padding: 5px;
   font-size: 19px;
 }
@@ -141,8 +161,11 @@ img.faculty-profile-img {
   cursor: pointer;
 }
 .about-content-container {
-  padding-top: 25px;
-  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12px;
 }
 .about-nav .active {
   border-bottom: 2px solid black;
@@ -156,7 +179,7 @@ img.faculty-profile-img {
   padding-top: 100px;
 }
 .form-container{
-  margin:25px 0px;
+  margin:25px 50px;
   padding: 20px;
   background-color: white;
   width: 30vw;
@@ -169,6 +192,13 @@ img.faculty-profile-img {
     background-color: white;
     width: 100%;
   }
+
+  .home-description {
+    margin: 0px 17px;
+    font-size: 17px;
+    text-align: center;
+  }
+
 }
 
 /* Footer */
