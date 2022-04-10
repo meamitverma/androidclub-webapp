@@ -18,9 +18,6 @@
   text-align: center;
 }
 
-@media screen {
-  
-}
 
 .navbar {
   /* Anmimation */
@@ -79,14 +76,12 @@ nav.bg-light {
   padding: 5px;
 }
 .card-img-top {
-  width: 100%;
-  height: 12vw;
-  object-position: 0% 20%;
+  height: 22vh;
+  object-position: 0% 30%;
   object-fit: cover;
 }
 
 /* Faculty */
-
 img.faculty-profile-img {
   width: fit-content;
   border-radius: 60px;
@@ -125,7 +120,7 @@ img.faculty-profile-img {
 .member-body {
   object-fit: contain;
   padding: 10px;
-  height: 13vh;
+  height: 19vh;
 }
 .member-desc-wrapper {
   display: flex;
@@ -199,6 +194,32 @@ img.faculty-profile-img {
     text-align: center;
   }
 
+  .container-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .member-body{
+    object-fit: contain;
+    padding: 7px;
+    width:fit-content;
+    height: 19vh;
+  }
+  
 }
 
 /* Footer */
+.container-mobile{
+  display: flex;
+}
+.footer-logos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .col{
+  margin-top: 20px;
+}

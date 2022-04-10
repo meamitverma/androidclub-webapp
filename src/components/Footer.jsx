@@ -58,8 +58,8 @@ function Footer() {
     // </div>
 
     <div className="container">
-      <footer className="row row-cols-5 py-5 my-5 border-top">
-        <div className="col">
+      <footer className="py-5 my-5 border-top container-mobile">
+        <div className="col footer-logos">
           <a
             href="#"
             target="_"
@@ -86,7 +86,6 @@ function Footer() {
           <p className="text-muted">© 2022 Android Club</p>
         </div>
 
-        <div className="col"></div>
 
         <div className="col">
           <h5>Explore</h5>
@@ -126,22 +125,20 @@ function Footer() {
               VIT Bhopal University <br />
               Bhopal-Indore Highway <br />
               Kothri Kalan, Sehore <br />
-              Madhya Pradesh - 466114 <br />
-            </li>
-            <br />
-            <li className=" mb-2 p-0 text-muted">
+              Madhya Pradesh - 466114 <br/>
               <a
-                href="mailto:androidclub.vitbhopal.ac.in"
+                href="mailto:androidclub@vitbhopal.ac.in"
                 className="nav-link p-0 text-muted"
               >
-                androidclub.vitbhopal.ac.in
+                <p style={{color:"darkblue"}}>androidclub@vitbhopal.ac.in</p>
               </a>
-            </li>
+            </li>          
+            
           </ul>
         </div>
 
         <div className="col">
-          <h5>Follow</h5>
+          <h5 >Follow</h5>
           <ul className="nav flex-column">
             <li className="mb-2">
               <a

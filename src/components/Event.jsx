@@ -23,12 +23,24 @@ function Event(props) {
         <ul className="list-group list-group-flush">
           <li className="list-group-item ">
             <div className="event-register-container">
-              <div> {props.schedule}</div>
+             <div className="event-schedule"> 
+                  <div className="event-schedule-date">
+                      <img src="https://img.icons8.com/material-outlined/344/454545/calendar--v1.png" alt="" width={17} style={{marginRight:"7px"}}/>
+                      {props.schedule_date}
+                  </div>
+                  
+                 <div className="event-schedule-time">
+                     <img src="https://img.icons8.com/windows/344/454545/clock.png" alt="" width={17} style={{marginRight:"7px"}} />
+                      {props.schedule_time}
+                  </div>
+
+                  
+              </div>
               <div className="event-register-btn">
                 <a
                   href={props.linktojoin}
                   target="_"
-                  className="btn btn-sm btn-primary"
+                  className="btn btn-primary"
                 >
                   Register
                 </a>
