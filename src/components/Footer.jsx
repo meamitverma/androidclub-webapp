@@ -68,7 +68,7 @@ function Footer() {
             <img
               src={require("../assets/images/android_black.png")}
               alt="android logo "
-              width={35}
+              width={52}
             />
           </a>
 
@@ -80,12 +80,11 @@ function Footer() {
             <img
               src="https://www.mpnvva.in/Image/UniversityLogo?instituteID=35"
               alt="VIT Bhopal"
-              width={85}
+              width={110}
             />
           </a>
           <p className="text-muted">© 2022 Android Club</p>
         </div>
-
 
         <div className="col">
           <h5>Explore</h5>
@@ -151,6 +150,7 @@ function Footer() {
                   alt=""
                   width={18}
                   height={18}
+                  style={{marginBottom:"3px"}}
                 />{" "}
                 Instagram
               </a>
@@ -166,6 +166,7 @@ function Footer() {
                   alt=""
                   width={18}
                   height={18}
+                  style={{marginBottom:"4px"}}
                 />{" "}
                 Linked in
               </a>

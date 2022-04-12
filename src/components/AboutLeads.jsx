@@ -13,8 +13,8 @@ function AboutLead() {
             insta_link="https://www.instagram.com/rohan_sarkarr/"
           />
         </div>
-
-        <div className="col-md-2"style={{marginLeft:"50px"}}>
+    
+        <div id="lead-nontech" className="col-md-2" >
         <Member
             profileimg={require("../assets/profileimg/tamanna.jpeg")}
             title="Tamanna Kapoor"

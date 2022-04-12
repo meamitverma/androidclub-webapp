@@ -76,7 +76,7 @@ nav.bg-light {
   padding: 5px;
 }
 .card-img-top {
-  height: 22vh;
+  height: 20vh;
   object-position: 0% 30%;
   object-fit: cover;
 }
@@ -162,6 +162,9 @@ img.faculty-profile-img {
   justify-content: center;
   padding-top: 12px;
 }
+#lead-nontech{
+  margin-left: 12px;
+}
 .about-nav .active {
   border-bottom: 2px solid black;
 }
@@ -200,6 +203,7 @@ img.faculty-profile-img {
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
   }
 
   .member-body{
@@ -208,7 +212,28 @@ img.faculty-profile-img {
     width:fit-content;
     height: 19vh;
   }
-  
+
+  .about-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-mobile{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-brand{
+    align-self: flex-start;
+  }
+  .navbar-toggler{
+    align-self: flex-end;
+    position: absolute;
+    margin-top: 7px;
+    margin-right: 15px;
+    right: 0;
+  }
 }
 
 /* Footer */

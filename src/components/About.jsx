@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import AboutLeads from "./AboutLeads";
-import AboutMembers from "./AboutMembers";
-import Android from "./Android";
-import Web from "./Web";
 import Faculty from "./Faculty";
 import Footer from "./Footer";
 import Contact from "./Contact";
