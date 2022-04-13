@@ -24,52 +24,7 @@ function Navbar() {
  
 
   const handleNavOnclick = () => {
-    if(!navItemsVisible){
-      document.getElementById('navbarSupportedContent').innerHTML = `<ul className="navbar-nav me-auto mb-2 mb-lg-0">
-      <li className="nav-item">
-        <a className="nav-link active" aria-current="page" href="#">
-          Home
-        </a>
-      </li>
-
-      <li className="nav-item">
-        <a
-          className="nav-link active"
-          aria-current="page"
-          href="#events"
-        >
-          Events
-        </a>
-      </li>
-
-      <li className="nav-item">
-        <a
-          className="nav-link active"
-          aria-current="page"
-          href="#about"
-        >
-          Team
-        </a>
-      </li>
-
-      <li className="nav-item">
-        <a
-          className="nav-link active"
-          aria-current="page"
-          href="#contact"
-        >
-          Contact
-        </a>
-      </li>
-    </ul>`;
-      navItemsVisible= true;
-    }
-    else{
-      navitemsContent = document.getElementById('navbarSupportContent').innerHTML
-      document.getElementById('navbarSupportedContent').innerHTML="";
-      navItemsVisible = false;
-    }
-    //console.log(navItemsVisible);
+    document.getElementById('navbarSupportedContent').classList.toggle("active");
   }
 
  // handleNavOnclick();
@@ -94,16 +49,16 @@ function Navbar() {
             <button
               className="navbar-toggler"
               type="button"
-              // onclick{}
+              onClick={handleNavOnclick}
             >
               <span className="navbar-toggler-icon"></span>
             </button>
           
           
-           <div className="" id="navbarSupportedContent">
+           <div className="nav-items active" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="#" onClick={handleNavOnclick}>
                   Home
                 </a>
               </li>
@@ -113,6 +68,7 @@ function Navbar() {
                   className="nav-link active"
                   aria-current="page"
                   href="#events"
+                  onClick={handleNavOnclick}
                 >
                   Events
                 </a>
@@ -123,6 +79,7 @@ function Navbar() {
                   className="nav-link active"
                   aria-current="page"
                   href="#about"
+                  onClick={handleNavOnclick}
                 >
                   Team
                 </a>
@@ -133,6 +90,7 @@ function Navbar() {
                   className="nav-link active"
                   aria-current="page"
                   href="#contact"
+                  onClick={handleNavOnclick}
                 >
                   Contact
                 </a>

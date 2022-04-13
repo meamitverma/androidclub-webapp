@@ -5,11 +5,13 @@ function AboutLead() {
   return (
     <div className="about-content-container">
       {/* //<div className="row"> */}
-        <div className="col-md-2" >
+        <div id="lead-tech" className="col-md-2" >
           <Member
             profileimg={require("../assets/profileimg/rohan.jpg")}
             title="Rohan Sarkar"
-            pos="Secretary(Technical)"
+            pos="Secretary"
+            linkedin_link="https://www.linkedin.com/in/rohan-sarkarr"
+            github_link="https://github.com/rohan-sarkarr"
             insta_link="https://www.instagram.com/rohan_sarkarr/"
           />
         </div>
@@ -18,8 +20,10 @@ function AboutLead() {
         <Member
             profileimg={require("../assets/profileimg/tamanna.jpeg")}
             title="Tamanna Kapoor"
-            pos="Secretary(Non-Technical)"
-            // insta_link="https://www.instagram.com/androidclub.vitb/"
+            pos="Secretary"
+            linkedin_link="https://www.linkedin.com/in/tamannakapoor/"
+            github_link="https://github.com/tamununaaa"
+            insta_link="https://www.instagram.com/tamununaaa/"
           />
         </div>
 

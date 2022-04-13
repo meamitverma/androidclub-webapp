@@ -6,16 +6,19 @@ function Home() {
       <div className="home-content">
         <h2>Welcome to Android club</h2>
         <p className="home-description">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro
-          reiciendis quibusdam provident ipsum reprehenderit? Repellendus quasi
-          dolores eos consectetur reiciendis quas. Impedit, perferendis. Sint
-          possimus repellendus soluta laboriosam libero eveniet?
+          We at Android Club are driven to achieve excellence and solve problems
+          while at it. Dedicated to educating and creating awareness about
+          modern Mobile App development, we host workshops, hackathons,
+          webinars, and all possible events under the sun, that help us build an
+          inclusive community of like-minded people who explore and learn
+          together. So, wear your thinking caps, put on some creativity, and
+          let's develop some amazing apps!
         </p>
         <img
           className="img-fluid"
           src={require("../assets/images/home_illustratation.png")}
           alt=""
-          style={{width:"100vh"}}
+          style={{ width: "100vh" }}
         />
       </div>
     </div>

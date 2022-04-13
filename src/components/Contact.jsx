@@ -27,19 +27,8 @@ function Contact() {
 }
 
 function sendEmail() {
-  // Email.send({
-  //   Host: "smtp.gmail.com",
-  //   Username: "",
-  //   Password: "",
-  //   To: 'amit.kumar2020r@vitbhopal.ac.in',
-  //   From: "amit.verma.22080@gmail.com",
-  //   Subject: "Sending Email using javascript",
-  //   Body: "Well that was easy!!",
-  // })
-  //   .then(function (message) {
-  //     alert("mail sent successfully")
-  //   });
-  window.open('mailto:amit.verma.22080@gmail.com?subject=subject&body=body');
+  //if()
+  window.open(`mailto:androidclub@vitbhopal.ac.in?subject=Query - Android club&body=${document.getElementById('floatingTextarea').value}`);
 }
 
 export default Contact;

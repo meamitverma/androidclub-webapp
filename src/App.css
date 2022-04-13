@@ -35,9 +35,11 @@ nav.bg-light {
   flex-direction: row;
 }
 
-.nav-item {
+
+.navbar-nav{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-item:hover {
@@ -124,9 +126,12 @@ img.faculty-profile-img {
 }
 .member-desc-wrapper {
   display: flex;
+  flex-direction: column;
 }
 .member-social-link {
-  margin-left: auto;
+  display: flex;
+  gap: 11px;
+  justify-content: center;
   margin-top: 5px;
 }
 
@@ -162,7 +167,7 @@ img.faculty-profile-img {
   justify-content: center;
   padding-top: 12px;
 }
-#lead-nontech{
+#lead-nontech, #lead-tech{
   margin-left: 12px;
 }
 .about-nav .active {
@@ -209,7 +214,6 @@ img.faculty-profile-img {
   .member-body{
     object-fit: contain;
     padding: 7px;
-    width:fit-content;
     height: 19vh;
   }
 
@@ -219,6 +223,12 @@ img.faculty-profile-img {
     justify-content: center;
     align-items: center;
   }
+  .nav-items.active{
+    transition: 0.3s;
+    display: none;
+    align-items: center;
+  }
+  
 
   .navbar-mobile{
     display: flex;
@@ -234,6 +244,12 @@ img.faculty-profile-img {
     margin-right: 15px;
     right: 0;
   }
+
+  #lead-tech,#lead-nontech{
+    width: 45vw;
+  }
+
+  
 }
 
 /* Footer */

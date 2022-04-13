@@ -126,7 +126,7 @@ function Footer() {
               Kothri Kalan, Sehore <br />
               Madhya Pradesh - 466114 <br/>
               <a
-                href="mailto:androidclub@vitbhopal.ac.in"
+                href='mailto:androidclub@vitbhopal.ac.in?subject=Query'
                 className="nav-link p-0 text-muted"
               >
                 <p style={{color:"darkblue"}}>androidclub@vitbhopal.ac.in</p>
